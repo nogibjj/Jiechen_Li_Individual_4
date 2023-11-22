@@ -1,4 +1,4 @@
-[![CI](https://github.com/nogibjj/python-ruff-template/actions/workflows/cicd.yml/badge.svg)](https://github.com/nogibjj/python-ruff-template/actions/workflows/cicd.yml)
+[![CI](https://github.com/nogibjj/Jiechen_Li_Individual_4/actions/workflows/cicd.yml/badge.svg)](https://github.com/nogibjj/Jiechen_Li_Individual_4/actions/workflows/cicd.yml)
 
 # Jiechen_Li_Individual_4
 
