@@ -15,13 +15,13 @@ The dataset is selected from [Kaggle](https://www.kaggle.com/datasets/jealousleo
 
 ## Flask App Guidance on Local IDE
 
-1. **Install it in Python Environment**
+### Install it in Python Environment
 
 ```command line
 pip install Flask
 ```
 
-2. **Create ``flask_app.py`` file**
+### Create ``flask_app.py`` file
 
 We name our App as "BookBuddy", which is a book recommemdation system.
 
@@ -37,7 +37,7 @@ def index():
     return "Welcome to BookBuddy!"
 ```
 
-3. **Test ``flask_app.py`` file**
+### Test ``flask_app.py`` file
 
 ```python
 import unittest
@@ -57,7 +57,7 @@ class FlaskTestCase(unittest.TestCase):
 
 ## Docker Guidance
 
-1. **Write a Dockerfile**
+### Write a Dockerfile
 
 ```Dockerfile
 # Use an official Python runtime as a parent image
@@ -82,7 +82,7 @@ ENV NAME World
 CMD ["python", "flask_app.py"]
 ```
 
-2. **Build Docker Image Locally**
+### Build Docker Image Locally
 
 ```Dockerfile
 docker build -t bookbuddy:latest . 
@@ -90,7 +90,7 @@ docker build -t bookbuddy:latest .
 
 Ensure we installed Docker Desktop in local, and have our tag name with lowercase
 
-3. **Create a Repository on Docker Hub**
+### Create a Repository on Docker Hub
 
 Create a new repository named ``bookbuddy``, and push the Docker image.
 
@@ -102,7 +102,7 @@ docker push carrieli15/bookbuddy:latest
 
 ## Azure Guidance
 
-1. **Set Up Azure CLI**
+### Set Up Azure CLI
 
 Install it from the offical website and configure it locally.
 
@@ -112,15 +112,15 @@ Install it from the offical website and configure it locally.
 brew update && brew install azure-cli
 ```
 
-2. **Create a Web App and Deploy**
+### Create a Web App and Deploy
 
 In the Web App's settings, we can find the section for deployment, often labeled as "Deployment Center". Choose the option to deploy a container from Docker Hub. Provide the details of our Docker image.
 
-3. **Continuous Deployment**
+### Continuous Deployment
 
 Azure can automatically redeploy our app whenever you update the Docker image on Docker Hub by chooing "On" for continuous deployment.
 
-### Results
+## Results
 
 1. **Create Flask App of BookBuddy**
 <img decoding="async" src="1_flask_app.png" width="85%"><br>  
