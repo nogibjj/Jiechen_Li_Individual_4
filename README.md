@@ -166,7 +166,7 @@ Azure can automatically redeploy our app whenever you update the Docker image on
 
 ## Demo Video
 
-[Project Walkthrough Video](https://youtu.be/NVmPZFgrJ2Q)
+[Project Walkthrough Video](https://youtu.be/Fem9h7PipTI)
 
 ## Reference
 
