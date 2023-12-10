@@ -2,6 +2,10 @@
 
 # Jiechen_Li_Individual_4
 
+## Book Buddy
+
+Are you a book lover with a taste for surprises? Discover the joy of unexpected reads with Book Buddy's Mystery Box! Tailored just for you, our unique book recommendation system brings the thrill of mystery to your reading list. Dive into a world of hidden gems and delightful discoveries – your next favorite book awaits!
+
 ## Purpose
 
 * Build a publicly accessible auto-scaling container using Azure App Services and Flask.
@@ -120,6 +124,26 @@ In the Web App's settings, we can find the section for deployment, often labeled
 
 Azure can automatically redeploy our app whenever you update the Docker image on Docker Hub by chooing "On" for continuous deployment.
 
+## Using Book Buddy
+
+* Go to the following URL: [Book Buddy](https://bookbuddy3.azurewebsites.net/)
+* Select the genre you are interested in
+* Select how many books you would like to be recommended (Note: a value less than or equal to 0 will not let you continue)
+
+![web1](web1.png)
+
+* Click `Get Recommendations`. You will be redirected to a page with the list of books recommended in the genre selected.
+
+![web2](web2.png)
+
+* At this point, you can click on `Buy the Book`. This will rerouted you to an Amazon page to purchase the book.
+
+![web3](web3.png)
+
+* Alternatively, if you want to be recommended a new set of book or switch genres, click `Recommend Me Again`.
+
+![web4](web4.png)
+
 ## Results
 
 1. **Create Flask App of BookBuddy**
@@ -137,10 +161,7 @@ Azure can automatically redeploy our app whenever you update the Docker image on
 5. **Create Azure Web App**
 <img decoding="async" src="5_create_web.png" width="85%"><br/>
 
-6. **App Unique URL**
-<img decoding="async" src="6_uniq_url.png" width="85%"><br/>
-
-7. **Azure Logs Showing the Progress of the Deployment**
+6. **Azure Logs Showing the Progress of the Deployment**
 <img decoding="async" src="7_log_deployment.png" width="85%"><br/>
 
 ## Demo Video
